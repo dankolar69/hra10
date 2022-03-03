@@ -27,11 +27,11 @@ def on_forever():
     
     if start == True:
         if input.pin_is_pressed(TouchPin.P1) == True:
-            basic.show_number(1)
+            basic.show_string("1")
             basic.pause(5000)
             control.reset()
         if input.pin_is_pressed(TouchPin.P2) == True:
-            basic.show_number(2)
+            basic.show_string("2")
             basic.pause(5000)
             control.reset()
         if input.pin_is_pressed(TouchPin.P1) and input.pin_is_pressed(TouchPin.P2) == True:

@@ -19,13 +19,13 @@ basic.forever(function on_forever() {
     //  is_pin2 = pins.digitalReadPin(DigitalPin.P2) == 0
     if (start == true) {
         if (input.pinIsPressed(TouchPin.P1) == true) {
-            basic.showNumber(1)
+            basic.showString("1")
             basic.pause(5000)
             control.reset()
         }
         
         if (input.pinIsPressed(TouchPin.P2) == true) {
-            basic.showNumber(2)
+            basic.showString("2")
             basic.pause(5000)
             control.reset()
         }
