@@ -7,8 +7,8 @@ control.inBackground(function zacatek() {
     
     let doba = randint(3000, 10000)
     basic.pause(doba)
-    basic.showString(pismeno)
     music.playTone(Note.C, music.beat(1500))
+    basic.showString(pismeno)
     start = true
 })
 basic.forever(function on_forever() {
