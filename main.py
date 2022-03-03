@@ -10,8 +10,8 @@ def zacatek():
     global start
     doba = randint(3000, 10000)
     basic.pause(doba)
-    music.play_tone(Note.C, music.beat(1500))
     basic.show_string(pismeno)
+    music.play_tone(Note.C, music.beat(1500))
     start = True
 control.in_background(zacatek)
 
